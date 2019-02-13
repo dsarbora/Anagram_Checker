@@ -10,6 +10,7 @@ namespace Anagram.Models
         private List<string> OtherWords = new List<string>(){};
         private List<string> AnagramList = new List<string>(){};
 
+        
         public AnagramFinder(string input)
         {
             Input = input;
@@ -23,16 +24,14 @@ namespace Anagram.Models
             AnagramFinder finder = new AnagramFinder(newWord);
             finder.GoGetTheAnagrams();
         }
-        public string GetString()
-        {
-            return Input;
-        }
+
         public void GoGetTheAnagrams()
         {
             this.SetOtherWords();
             this.SortOtherWords();
             this.ShowAnagrams();
         }
+
         public void SetOtherWords()
         {
             string newWord = Console.ReadLine();
@@ -46,6 +45,7 @@ namespace Anagram.Models
                 this.SortInput();
             }
         }
+
         public void SortInput()
         {
             char[] charArray = Input.ToCharArray();
@@ -53,6 +53,7 @@ namespace Anagram.Models
             SortedInput = string.Join("", charArray);
             
         }
+
         public void SortOtherWords()
         {
             foreach(string word in OtherWords)
@@ -67,6 +68,7 @@ namespace Anagram.Models
                 }
             }
         }
+
         public void ShowAnagrams()
         {
             foreach (string anagram in AnagramList)
