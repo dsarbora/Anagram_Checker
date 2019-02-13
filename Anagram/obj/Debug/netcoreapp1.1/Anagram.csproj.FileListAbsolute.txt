@@ -1,0 +1,9 @@
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.csprojAssemblyReference.cache
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.csproj.CoreCompileInputs.cache
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.AssemblyInfoInputs.cache
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.AssemblyInfo.cs
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.deps.json
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\bin\Debug\netcoreapp1.1\Anagram.pdb
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram\obj\Debug\netcoreapp1.1\Anagram.pdb

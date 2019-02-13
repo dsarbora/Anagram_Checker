@@ -1,0 +1,17 @@
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.csprojAssemblyReference.cache
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.csproj.CoreCompileInputs.cache
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.AssemblyInfoInputs.cache
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.AssemblyInfo.cs
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.Test.deps.json
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.Test.runtimeconfig.json
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.Test.runtimeconfig.dev.json
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.Test.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.Test.pdb
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\bin\Debug\netcoreapp1.1\Anagram.pdb
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.csproj.CopyComplete
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.dll
+C:\Users\Dave\source\repos\Anagram.Solution\Anagram.Test\obj\Debug\netcoreapp1.1\Anagram.Test.pdb
