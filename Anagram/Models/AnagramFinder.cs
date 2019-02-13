@@ -18,9 +18,15 @@ namespace Anagram.Models
         {
             return Input;
         }
+        public void GoGetTheAnagrams()
+        {
+            this.SetOtherWords();
+            this.SortOtherWords();
+            this.ShowAnagrams();
+        }
         public void SetOtherWords()
         {
-            string newWord = Console.ReadLine().ToLower();
+            string newWord = Console.ReadLine();
             if(newWord!="q")
             {
                 OtherWords.Add(newWord);
@@ -28,21 +34,22 @@ namespace Anagram.Models
             }
             else
             {
-                this.FindAnagrams();
+                this.SortInput();
             }
         }
-        public void GetSortedWord()
+        public void SortInput()
         {
             char[] charArray = Input.ToCharArray();
             Array.Sort(charArray);
             SortedInput = string.Join("", charArray);
-            this.FindAnagrams();
+            
         }
-        public void FindAnagrams()
+        public void SortOtherWords()
         {
             foreach(string word in OtherWords)
             {
-                char[] charArray = word.ToCharArray();
+                string lowerWord = word.ToLower();
+                char[] charArray = lowerWord.ToCharArray();
                 Array.Sort(charArray);
                 string sortedCompare = new string(charArray);
                 if(sortedCompare == SortedInput)
@@ -50,13 +57,19 @@ namespace Anagram.Models
                      AnagramList.Add(word);
                 }
             }
-            this.ShowAnagrams();
         }
         public void ShowAnagrams()
         {
             foreach (string anagram in AnagramList)
             {
-                Console.WriteLine(anagram + " is an anagram of " + Input);
+                if (anagram != Input)
+                {
+                    Console.WriteLine(anagram + " is an anagram of " + Input);
+                }
+                else
+                {
+                    Console.WriteLine(anagram + " IS " + Input);
+                }
             }
         }
     }
