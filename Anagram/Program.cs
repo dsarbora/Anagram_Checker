@@ -8,13 +8,7 @@ namespace Anagram
     {
         public static void Main()
         {
-            Console.WriteLine("Give me a word.");
-            string newWord= Console.ReadLine().ToLower();
-            Console.WriteLine("Now give me some other words to compare. Enter Q when you're done.");
-            
-            AnagramFinder finder = new AnagramFinder(newWord);
-            
-            finder.GoGetTheAnagrams();            
+         AnagramFinder.SetInput();
         }
     }
 }

@@ -14,6 +14,15 @@ namespace Anagram.Models
         {
             Input = input;
         } 
+
+        public static void SetInput()
+        {
+            Console.WriteLine("Give me a word.");
+            string newWord= Console.ReadLine().ToLower();
+            Console.WriteLine("Now give me some other words to compare. Enter Q when you're done.");
+            AnagramFinder finder = new AnagramFinder(newWord);
+            finder.GoGetTheAnagrams();
+        }
         public string GetString()
         {
             return Input;
